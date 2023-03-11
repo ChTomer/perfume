@@ -1,0 +1,109 @@
+:root {
+    --font: 'Montserrat', sans-serif;
+    --font: 'Fraunces', serif;
+    --dc: hsl(158, 36%, 37%);
+    --dsc: hsl(158, 25%, 45%);
+    --cr: hsl(30, 38%, 92%);
+    --vdb: hsl(212, 21%, 14%);
+    --dgb: hsl(228, 12%, 48%);
+    --wh: hsl(0, 0%, 100%);
+}
+body {
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cr);
+    text-align: left;
+    height: 500px;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    width: 230px;
+    line-height: 1;
+    /* padding-right: 30px; */
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dgb);
+    letter-spacing: 4px;
+    font-size: 0.875rem;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dgb);
+    font-weight: normal;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dgb);
+    font-weight: normal;
+    margin-left: -75px;
+}
+
+
+.main-container {
+    display: flex ;
+    align-items: center; /* to vertically center the content */
+    justify-content: center; /* to horizontally center the content */
+    border-radius: 10px;
+    /* border: 1px solid #000000; */
+    overflow: hidden;
+  
+}
+
+.picture-container {
+    /* display: grid; */
+    width: 300px;
+    height: 440px;
+    border-radius: 10px 0 0 10px; /* to curve the left edge of the image */
+    overflow: hidden;
+}
+.text-container {
+    /* display: grid; */
+    width: 260px;
+    background-color: var(--wh);
+    border-radius: 0 10px 10px 0;
+    padding: 20px; 
+    height: 400px;
+    
+
+}
+.price-container {
+    position: relative;
+    display: flex ;
+    align-items: center;
+}
+.button {
+    position: relative;
+    left: 10px;
+    right: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--wh);
+    background-color: var(--dc);
+    border: none;
+    width: 240px;
+    border-radius: 10px;
+    /* box-shadow: 0 1px #999; */
+  }
+.button:hover {
+    background-color: var(--dsc);
+}
+.button:active {
+    background-color: var(--dc);
+    /* box-shadow: 0 1px var(--dc); */
+    transform: translateY(1px);
+}
+
+.attribution {
+    padding-top: 100px;
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
