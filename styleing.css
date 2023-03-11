@@ -13,7 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cr);
     text-align: left;
-    height: 500px;
+    height: 500px; 
 }
 h1 {
     font-family: 'Fraunces', serif;
@@ -44,6 +44,7 @@ h5 {
     display: flex ;
     align-items: center; /* to vertically center the content */
     justify-content: center; /* to horizontally center the content */
+    padding 10%;
     border-radius: 10px;
     /* border: 1px solid #000000; */
     overflow: hidden;
